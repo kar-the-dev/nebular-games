@@ -130,7 +130,7 @@ class Particle {
 Setup
 --------------------*/
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, displayHeight);
   for (let i = 0; i < opt.particles; i++) {
     Particles.push(new Particle(Math.random() * width, Math.random() * height));
   }
