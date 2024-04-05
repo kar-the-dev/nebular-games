@@ -7,8 +7,8 @@ html, body {
 }
 
 canvas {
-  position: absolute !important;
-  top: 0;
-  left: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   z-index: -1;
 }
