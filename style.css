@@ -5,11 +5,6 @@ html, body {
   color: white;
 }
 
-head {
-  background-color: black;
-
-}
-
 canvas {
   position: absolute;
   top: 0;
