@@ -136,7 +136,7 @@ function setup() {
   }
   strokeWeight(opt.strokeWeight);
 
-  background(0)
+  background(0);
 }
 
 /*--------------------
