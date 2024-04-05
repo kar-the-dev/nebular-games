@@ -1,2 +1,2 @@
 # Nebular Games Official Site
-## Official repository for the website at [nebular.games](https://nebular.games/)
+### Official repository for the website at [nebular.games](https://nebular.games/)
