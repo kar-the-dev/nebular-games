@@ -135,6 +135,8 @@ function setup() {
     Particles.push(new Particle(Math.random() * width, Math.random() * height));
   }
   strokeWeight(opt.strokeWeight);
+
+  background(0)
 }
 
 /*--------------------
