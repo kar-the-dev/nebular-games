@@ -6,6 +6,10 @@ html, body {
   background: black
 }
 
+canvas {
+  
+}
+
 body {
   padding: 10px;
 }
