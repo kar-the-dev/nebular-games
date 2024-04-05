@@ -5,3 +5,7 @@ html, body {
   font-family: 'Poppins', 'Helvetica', sans-serif;
   color: white;
 }
+
+body {
+  padding: 10px;
+}
