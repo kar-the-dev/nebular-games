@@ -144,7 +144,7 @@ Draw
 --------------------*/
 function draw() {
   time++;
-  background(20, 100 - opt.tail);
+  background(0, 100 - opt.tail);
 
   for (let p of Particles) {
     p.update();
