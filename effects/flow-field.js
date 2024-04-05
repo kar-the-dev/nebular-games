@@ -18,19 +18,7 @@ const opt = {
 };
 const Particles = [];
 let time = 0;
-document.body.addEventListener("click", () => {
-  opt.h1 = rand(0, 360);
-  opt.h2 = rand(0, 360);
-  opt.s1 = rand(20, 90);
-  opt.s2 = rand(20, 90);
-  opt.l1 = rand(30, 80);
-  opt.l2 = rand(30, 80);
-  opt.angle += deg(random(60, 60)) * (Math.random() > 0.5 ? 1 : -1);
 
-  for (let p of Particles) {
-    p.randomize();
-  }
-});
 
 /*--------------------
 Particle
