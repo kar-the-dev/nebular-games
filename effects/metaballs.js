@@ -4,7 +4,6 @@ var height = canvas.height = window.innerHeight * 0.75;
 document.body.appendChild(canvas);
 var gl = canvas.getContext('webgl');
 gl.imageSmoothingEnabled = true;
-gl.antia
 
 var mouse = {x: 0, y: 0};
 
