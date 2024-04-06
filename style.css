@@ -8,10 +8,6 @@ body {
   background-color: black;
 }
 
-body {
-  height: 100vh;
-}
-
 .container {
   display: flex;
   justify-content: center;
