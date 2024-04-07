@@ -10,14 +10,6 @@ var mouse = {x: 0, y: 0};
 var numMetaballs = 30;
 var metaballs = [];
 
-let dw;
-let dh;
-
-function setup() {
-  dw = displayWidth;
-  dh = displayHeight;
-}
-
 for (var i = 0; i < numMetaballs; i++) {
   var radius = Math.random() * ((window.screen.width*window.screen.height)/20000) + (window.screen.width*window.screen.height)/50000;
   metaballs.push({
