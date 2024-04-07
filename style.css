@@ -76,10 +76,6 @@ body {
   border: solid #666666 1px;
 }
 
-.down-arrow-text:hover {
-  background-color: rgba(0, 0, 0, 0.75);
-}
-
 .right {
   text-align: right;
   margin-right: 1vw;
