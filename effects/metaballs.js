@@ -134,7 +134,7 @@ function loop() {
 
   if (screen.width == window.innerWidth && screen.height == window.innerHeight) {
     //full web browser
-    alert('full!')
+    console.log('full!')
   }
   
   //Draw
