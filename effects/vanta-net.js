@@ -1,1 +1,1 @@
-VANTA.WAVES('body')
+VANTA.WAVES('')
