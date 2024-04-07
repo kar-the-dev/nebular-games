@@ -6,9 +6,11 @@ let canvas, width, height, gl;
 function setup() {
   dw = displayWidth;
   dh = displayHeight;
+
+  canvas = document.createElement("canvas");
 }
 
-var canvas = document.createElement("canvas");
+var 
 var width = canvas.width = dw * 0.75;
 var height = canvas.height = dh * 0.75;
 document.body.appendChild(canvas);
