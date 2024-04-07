@@ -46,7 +46,7 @@ body {
   50% {
     align-content: flex-start;
   }
-  
+
   100% {
     align-content: flex-end;
   }
@@ -68,6 +68,8 @@ body {
   justify-content: center;
   border: solid #666666 1px;
   font-family:'Trebuchet MS', sans-serif;
+
+  animation-name
 }
 
 .content {
