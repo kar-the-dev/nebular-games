@@ -65,7 +65,7 @@ body {
   border: solid #666666 1px;
   font-family:'Trebuchet MS', sans-serif;
 
-  animation: 2s infinite bounce;
+  animation: 2s infinite ease-in bounce;
 }
 
 .content {
