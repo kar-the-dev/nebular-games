@@ -39,7 +39,7 @@ body {
   position: absolute;
   left: 0;
   top: 100vh;
-  background-image: linear-gradient(transparent, #080808);
+  background-image: #080808;
   height: 20vh;
   width: 100vw;
   z-index: 50;
