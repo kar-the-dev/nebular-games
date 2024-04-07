@@ -87,7 +87,7 @@ body {
 }
 
 p {
-  overflow: wrap;
+  overflow: auto;
 }
 
 .content {
