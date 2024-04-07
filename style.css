@@ -58,7 +58,7 @@ body {
   text-align: center;
   display: flex;
 
-  flex-direction: c;
+  flex-direction: column;
 
   justify-content: center;
   font-family: "Trebuchet MS", sans-serif;
