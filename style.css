@@ -64,8 +64,8 @@ body {
   transition: 0.15s;
   animation: 3s infinite ease-in-out bounce;
 
-  width: 2px;
-  height: 2px;
+  /* width: 2px;
+  height: 2px; */
 }
 
 .down-arrow-container:hover {
