@@ -135,7 +135,8 @@ function loop() {
   gl.uniform3fv(metaballsHandle, dataToSendToGPU);
 
   if (screen.width == window.innerWidth && screen.height == window.innerHeight && !prevFull) {
-    reca
+    recalc();
+    prevFull = true;
   }
   
   //Draw
