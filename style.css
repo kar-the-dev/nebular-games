@@ -113,6 +113,6 @@ h3 {
 
 canvas {
   width: var(--screen-w);
-  height: 100vh;
+  height: var(--screen-h);
   z-index: 0;
 }
