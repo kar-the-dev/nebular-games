@@ -98,7 +98,7 @@ body {
 }
 
 canvas {
-  width: 200vw;
-  width: 200vh;
+  width: 100vw;
+  width: 100vh;
   z-index: 0;
 }
