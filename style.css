@@ -70,8 +70,6 @@ body {
   justify-content: center;
   border: solid #666666 1px;
   font-family: "Trebuchet MS", sans-serif;
-
-  animation: 3s infinite ease-in-out bounce;
 }
 
 .content {
