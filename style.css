@@ -64,7 +64,7 @@ body {
   width: 100vw;
   height: 100vh;
 
-  animation: 
+  animation: 1s infinite;
 }
 
 .down-arrow {
