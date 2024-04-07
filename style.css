@@ -40,11 +40,10 @@ body {
 
 @keyframes bounce {
   from {
-    align-content: flex-end;
+    font-size: 5vw
   }
 
   to {
-    align-content: flex-start;
   }
 }
 
