@@ -71,6 +71,10 @@ body {
   animation: 3s infinite ease-in-out bounce;
 }
 
+.down-arrow-text:hover {
+  cursor: arrow;
+}
+
 .down-arrow-container {
   background-color: rgba(0, 0, 0, 0.75);
 }
