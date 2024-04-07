@@ -44,17 +44,18 @@ body {
   }
 
   10% {
-    top: .1vh;
+    top: 0.1vh;
   }
 
-  20%, 100% {
-    top:0;
+  20%,
+  100% {
+    top: 0;
   }
 }
 
 .down {
   position: relative;
-  background-color: rgba(13, 13, 13, .4);
+  background-color: rgba(13, 13, 13, 0.4);
   backdrop-filter: blur(5px);
   border-radius: 100px;
   font-size: 5vw;
@@ -68,7 +69,7 @@ body {
   align-content: flex-end;
   justify-content: center;
   border: solid #666666 1px;
-  font-family:'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 
   animation: 3s infinite ease-in-out bounce;
 }
