@@ -35,7 +35,7 @@ function recalc() {
   }
 
   width = canvas.width = screen.width * 0.75;
-  height = canvas.height = window.innerHeight * 0.75;
+  height = canvas.height = screen.height * 0.75;
 }
 
 var vertexShaderSrc = `
