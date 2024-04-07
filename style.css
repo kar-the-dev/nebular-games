@@ -86,7 +86,7 @@ body {
 
 .down-arrow:hover {
   /* background-color: rgba(13, 13, 13, 0.75); */
-  
+  font-size: 1.25em;
 }
 
 .right {
