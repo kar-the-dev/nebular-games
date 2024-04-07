@@ -1,5 +1,5 @@
 function loop() {
-  $(':root').css("--screen-w", $( window ).height() );
+  $(':root').css("--screen-w", $( window ).width());
   requestAnimationFrame(loop);
 }
 
