@@ -39,11 +39,11 @@ body {
 }
 
 @keyframes bounce {
-  from {
+  0% {
     font-size: 5vw
   }
 
-  to {
+  50% {
     font-size: 6vw;
   }
 }
