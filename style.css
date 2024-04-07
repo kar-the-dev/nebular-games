@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: "Poppins", "Helvetica", sans-serif;
   color: white;
-  overflow-x: hidden;
+  overflow-x: auto;
   background-color: black;
   scroll-behavior: smooth;
 }
