@@ -3,7 +3,7 @@ document.onreadystatechange(() => {
         document.querySelector(".spinner").style.visibility = "visible";
         document.querySelector("body").style.visibility = "hidden";
     } else {
-        document.querySelector(".spinner").style.visibility = "visible";
-        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector(".spinner").style.visibility = "hidden";
+        document.querySelector("body").style.visibility = "visible";
     }
 })
