@@ -123,7 +123,6 @@ var metaballsHandle = getUniformLocation(program, 'metaballs');
 
 let prevFull = false;
 
-loop();
 function draw() {
   for (var i = 0; i < numMetaballs; i++) {
     var metaball = metaballs[i];
@@ -155,8 +154,6 @@ function draw() {
   
   //Draw
   gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-
-  requestAnimationFrame(loop);
 }
 
 function compileShader(shaderSource, shaderType) {
