@@ -53,6 +53,12 @@ body {
   }
 }
 
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .spinner {
   text-align: center;
   width: 100vw;
