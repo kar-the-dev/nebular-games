@@ -79,6 +79,10 @@ body {
   border: solid #666666 1px;
 }
 
+.down-arrow:hover {
+  
+}
+
 .right {
   text-align: right;
   margin-right: 1vw;
