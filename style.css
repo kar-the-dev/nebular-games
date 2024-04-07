@@ -53,7 +53,7 @@ body {
   }
 }
 
-.down-arrow-container {
+.down-arrow {
   position: relative;
   text-align: center;
   display: flex;
