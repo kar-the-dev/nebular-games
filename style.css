@@ -76,6 +76,7 @@ body {
 
 .down-arrow-text {
   position: relative;
+  font-size: calc((100vh + 100vw) / 50);
   top: -0.5vh;
   text-decoration: none;
   color: white;
