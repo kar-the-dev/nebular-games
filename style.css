@@ -70,7 +70,7 @@ body {
   border: solid #666666 1px;
   font-family: "Trebuchet MS", sans-serif;
 
-  transition: 0.55s;
+  transition: 0.15s;
   animation: 3s infinite ease-in-out bounce;
 }
 
