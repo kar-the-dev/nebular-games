@@ -33,6 +33,9 @@ function recalc() {
       r: radius * 0.75
     });
   }
+
+  width = canvas.width = window.innerWidth * 0.75;
+  height = canvas.height = window.innerHeight * 0.75;
 }
 
 var vertexShaderSrc = `
