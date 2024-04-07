@@ -29,10 +29,7 @@ body {
   position: absolute;
   left: 0;
   top: 80vh;
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 255)
-  );
+  background-image: black;
   height: 200vh;
   z-index: 5;
 }
