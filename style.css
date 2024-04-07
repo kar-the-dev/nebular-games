@@ -27,7 +27,9 @@ body {
 
 .content {
   position: absolute;
-  
+  left: 0;
+  top: 80vh;
+  background-image: linear-gradient()
 }
 
 canvas {
