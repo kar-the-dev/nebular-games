@@ -1,1 +1,1 @@
-VANTA.WAVES('#my-background')
+VANTA.WAVES('body')
