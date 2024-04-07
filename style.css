@@ -34,7 +34,7 @@ body {
   width: 100vw;
   z-index: 50;
   display: flex;
-  align-content: 
+  justify-content: f
 }
 
 .down {
