@@ -34,6 +34,7 @@ body {
     rgba(0, 0, 0, 255)
   );
   height: 200vh;
+  z-index: 5;
 }
 
 canvas {
