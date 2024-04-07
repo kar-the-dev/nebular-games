@@ -65,7 +65,7 @@ body {
   text-decoration: none;
   color: white;
   display: flex;
-  align-content: flex-end;
+  align-content: center;
   justify-content: center;
   border: solid #666666 1px;
   font-family: "Trebuchet MS", sans-serif;
