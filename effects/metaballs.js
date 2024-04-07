@@ -135,7 +135,7 @@ function loop() {
   gl.uniform3fv(metaballsHandle, dataToSendToGPU);
 
   let isFull = 
-  if (screen.width == window.innerWidth && screen.height == window.innerHeight && !prevFull) {
+  if (&& !prevFull) {
     recalc();
     prevFull = true;
   } else if(prevFull) {
