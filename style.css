@@ -25,14 +25,6 @@ body {
   color: white;
 }
 
-.transition {
-  position: absolute;
-  left: 0;
-  top: 80vh;
-  height: 50vh;
-  background-image: linear-gradient(black, darkgrey);
-}
-
 .content {
   position: absolute;
   left: 0;
