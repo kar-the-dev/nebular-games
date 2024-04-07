@@ -43,6 +43,8 @@ body {
   border-radius: 100px;
   font-size: 10vw;
   transition: 0.5s;
+  width: 10vw;
+  height: 10vh;
 }
 
 .content {
