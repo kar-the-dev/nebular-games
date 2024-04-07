@@ -1,6 +1,8 @@
 let dw;
 let dh;
 
+let canvas, width, height, gl;
+
 function setup() {
   dw = displayWidth;
   dh = displayHeight;
