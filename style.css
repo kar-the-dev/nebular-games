@@ -99,5 +99,6 @@ body {
 
 canvas {
   width: 100vw;
+  width: 100vh;
   z-index: 0;
 }
