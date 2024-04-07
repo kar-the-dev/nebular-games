@@ -137,6 +137,8 @@ function loop() {
   if (screen.width == window.innerWidth && screen.height == window.innerHeight && !prevFull) {
     recalc();
     prevFull = true;
+  } else {
+    prevFull = false;
   }
   
   //Draw
