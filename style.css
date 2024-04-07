@@ -80,6 +80,7 @@ body {
   top: -0.5vh;
   text-decoration: none;
   color: white;
+  pointer-events: none;
 }
 
 .right {
