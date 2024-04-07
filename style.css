@@ -38,6 +38,10 @@ body {
   justify-content: center;
 }
 
+@keyframes bounce {
+  
+}
+
 .down {
   background-color: rgba(13, 13, 13, .4);
   backdrop-filter: blur(5px);
