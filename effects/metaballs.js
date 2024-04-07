@@ -168,7 +168,7 @@ function getAttribLocation(program, name) {
 
 document.addEventListener("fullscreenchange", (e) => {
   alert('full');
-})
+});
 
 canvas.onmousemove = function(e) {
   mouse.x = e.clientX;
