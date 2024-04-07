@@ -131,6 +131,10 @@ function loop() {
     dataToSendToGPU[baseIndex + 2] = mb.r;
   }
   gl.uniform3fv(metaballsHandle, dataToSendToGPU);
+
+  if (screen.width == window.innerWidth && screen.height == window.innerHeight) {
+    //full web browser
+  }
   
   //Draw
   gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
