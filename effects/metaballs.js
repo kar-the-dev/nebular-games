@@ -21,6 +21,20 @@ for (var i = 0; i < numMetaballs; i++) {
   });
 }
 
+function recalc() {
+  metaballs = [];
+  for (var i = 0; i < numMetaballs; i++) {
+    var radius = Math.random() * ((window.screen.width*window.screen.height)/20000) + (window.screen.width*window.screen.height)/50000;
+    metaballs.push({
+      x: Math.random() * (width - 2 * radius) + radius,
+      y: Math.random() * (height - 2 * radius) + radius,
+      vx: (Math.random() - 0.5) * 3,
+      vy: (Math.random() - 0.5) * 3,
+      r: radius * 0.75
+    });
+  }
+}
+
 var vertexShaderSrc = `
 attribute vec2 position;
 
