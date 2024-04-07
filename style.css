@@ -74,6 +74,10 @@ body {
   animation: 3s infinite ease-in-out bounce;
 }
 
+.down-arrow:hover {
+  
+}
+
 .content {
   position: absolute;
   left: 0;
