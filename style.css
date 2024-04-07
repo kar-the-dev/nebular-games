@@ -75,12 +75,12 @@ body {
 }
 
 .down-arrow:hover {
-  background-color: rgba(0, 0, 0, 0.75)
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .down-arrow-text {
   position: relative;
-  top:-.5
+  top: -0.5vh;
 }
 
 .content {
