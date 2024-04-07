@@ -124,7 +124,7 @@ var metaballsHandle = getUniformLocation(program, 'metaballs');
 let prevFull = false;
 
 loop();
-function loop() {
+function draw() {
   for (var i = 0; i < numMetaballs; i++) {
     var metaball = metaballs[i];
     metaball.x += metaball.vx;
