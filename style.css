@@ -75,7 +75,8 @@ body {
 }
 
 .down-arrow:hover {
-  border: solid #666666
+  border: solid #666666 2px;
+  widt
 }
 
 .content {
