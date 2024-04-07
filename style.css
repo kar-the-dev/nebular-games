@@ -73,6 +73,7 @@ body {
 }
 
 .down-text {
+  position: relative;
   animation: 3s infinite ease-in-out bounce;
 }
 
