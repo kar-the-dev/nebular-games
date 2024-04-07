@@ -9,12 +9,8 @@ function setup() {
 
   canvas = document.createElement("canvas");
   width = canvas.width = dw * 0.75;
-  canvas.height = dh * 0.75;
+  height = canvas.height = dh * 0.75;
 }
-
-var 
-var 
-var height = 
 document.body.appendChild(canvas);
 var gl = canvas.getContext('webgl');
 gl.imageSmoothingEnabled = true;
