@@ -34,7 +34,7 @@ function recalc() {
     });
   }
 
-  width = canvas.width = window.innerWidth * 0.75;
+  width = canvas.width = screen.width * 0.75;
   height = canvas.height = window.innerHeight * 0.75;
 }
 
