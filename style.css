@@ -6,6 +6,7 @@ body {
   color: white;
   overflow-x: hidden;
   background-color: black;
+  scroll-behavior: smooth;
 }
 
 .container {
