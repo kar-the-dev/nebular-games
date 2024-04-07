@@ -87,8 +87,8 @@ body {
   margin-right: 1vw;
 }
 
-
 .who {
+  margin-left: 10vw;
 }
 
 .content {
@@ -102,7 +102,10 @@ body {
   padding: 10px;
 }
 
-p, h1, h2, h3 {
+p,
+h1,
+h2,
+h3 {
   word-wrap: break-word;
 }
 
