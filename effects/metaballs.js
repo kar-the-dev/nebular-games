@@ -8,10 +8,11 @@ function setup() {
   dh = displayHeight;
 
   canvas = document.createElement("canvas");
+  width = canvas.width = dw * 0.75;
 }
 
 var 
-var width = canvas.width = dw * 0.75;
+var 
 var height = canvas.height = dh * 0.75;
 document.body.appendChild(canvas);
 var gl = canvas.getContext('webgl');
