@@ -7,7 +7,7 @@ function setup() {
 }
 
 var canvas = document.createElement("canvas");
-var width = canvas.width = screen.width * 0.75;
+var width = canvas.width = dw * 0.75;
 var height = canvas.height = screen.height * 0.75;
 document.body.appendChild(canvas);
 var gl = canvas.getContext('webgl');
