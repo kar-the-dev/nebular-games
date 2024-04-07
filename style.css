@@ -42,8 +42,11 @@ body {
   0% {
     align-content: flex-end;
   }
-  
+
   50% {
+    align-content: flex-start;
+  }
+  100% {
     align-content: flex-end;
   }
 }
