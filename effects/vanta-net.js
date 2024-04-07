@@ -1,0 +1,1 @@
+VANTA.WAVES('#my-background')
