@@ -46,6 +46,7 @@ body {
   50% {
     align-content: flex-start;
   }
+  
   100% {
     align-content: flex-end;
   }
