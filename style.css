@@ -84,9 +84,10 @@ body {
   border: solid #666666 1px; */
 }
 
-/* .down-arrow:hover {
-  background-color: rgba(13, 13, 13, 0.75);
-} */
+.down-arrow:hover {
+  /* background-color: rgba(13, 13, 13, 0.75); */
+  
+}
 
 .right {
   text-align: right;
