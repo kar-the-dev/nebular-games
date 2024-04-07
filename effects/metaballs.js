@@ -133,8 +133,7 @@ function loop() {
   gl.uniform3fv(metaballsHandle, dataToSendToGPU);
 
   if (screen.width == window.innerWidth && screen.height == window.innerHeight) {
-    //full web browser
-    console.log('full!')
+    
   }
   
   //Draw
