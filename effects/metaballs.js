@@ -1,19 +1,9 @@
-let dw;
-let dh;
-
-let canvas, width, height, gl;
-
-function setup() {
-  dw = displayWidth;
-  dh = displayHeight;
-
-  canvas = document.createElement("canvas");
-  width = canvas.width = dw * 0.75;
-  height = canvas.height = dh * 0.75;
-  document.body.appendChild(canvas);
-  gl = canvas.getContext('webgl');
-  gl.imageSmoothingEnabled = true;
-}
+var canvas = document.createElement("canvas");
+var width = canvas.width = window.innerWidth * 0.75;
+var height = canvas.height = window.innerHeight * 0.75;
+document.body.appendChild(canvas);
+var gl = canvas.getContext('webgl');
+gl.imageSmoothingEnabled = true;
 
 var mouse = {x: 0, y: 0};
 
@@ -21,7 +11,7 @@ var numMetaballs = 30;
 var metaballs = [];
 
 for (var i = 0; i < numMetaballs; i++) {
-  var radius = Math.random() * ((window.screen.width*window.screen.height)/20000) + (window.screen.width*window.screen.height)/50000;
+  var radius = Math.random() * 60 + 10;
   metaballs.push({
     x: Math.random() * (width - 2 * radius) + radius,
     y: Math.random() * (height - 2 * radius) + radius,
@@ -29,23 +19,6 @@ for (var i = 0; i < numMetaballs; i++) {
     vy: (Math.random() - 0.5) * 3,
     r: radius * 0.75
   });
-}
-
-function recalc() {
-  metaballs = [];
-  for (var i = 0; i < numMetaballs; i++) {
-    var radius = Math.random() * ((window.screen.width*window.screen.height)/20000) + (window.screen.width*window.screen.height)/50000;
-    metaballs.push({
-      x: Math.random() * (width - 2 * radius) + radius,
-      y: Math.random() * (height - 2 * radius) + radius,
-      vx: (Math.random() - 0.5) * 3,
-      vy: (Math.random() - 0.5) * 3,
-      r: radius * 0.75
-    });
-  }
-
-  width = canvas.width = screen.width * 0.75;
-  height = canvas.height = screen.height * 0.75;
 }
 
 var vertexShaderSrc = `
@@ -121,9 +94,8 @@ gl.vertexAttribPointer(positionHandle,
 
 var metaballsHandle = getUniformLocation(program, 'metaballs');
 
-let prevFull = false;
-
-function draw() {
+loop();
+function loop() {
   for (var i = 0; i < numMetaballs; i++) {
     var metaball = metaballs[i];
     metaball.x += metaball.vx;
@@ -142,18 +114,11 @@ function draw() {
     dataToSendToGPU[baseIndex + 2] = mb.r;
   }
   gl.uniform3fv(metaballsHandle, dataToSendToGPU);
-
-  let isFull = screen.width == window.innerWidth && screen.height == window.innerHeight;
-  if (isFull && !prevFull) {
-    recalc();
-    prevFull = true;
-  } else if(!isFull && prevFull) {
-    recalc();
-    prevFull = false;
-  }
   
   //Draw
   gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+
+  requestAnimationFrame(loop);
 }
 
 function compileShader(shaderSource, shaderType) {
