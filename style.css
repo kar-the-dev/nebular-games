@@ -39,8 +39,8 @@ body {
 }
 
 .down {
-  position: absolute;
-  top: 90vh;
+  position: relative;
+  top: 
   background-color: #2b2b2b;
   border-radius: 100px;
   font-size: 5vw;
