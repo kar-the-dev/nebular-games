@@ -39,7 +39,7 @@ body {
 }
 
 .down {
-  background-image: linear-gradient(to bottom right, #d70567, #04545b);
+  background-color: #3b3a3a;
   border-radius: 100px;
   font-size: 5vw;
   transition: 0.5s;
