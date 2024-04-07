@@ -1,3 +1,5 @@
 document.onreadystatechange(() => {
-    if(document.readyState !== "complete")
+    if(document.readyState !== "complete") {
+        document.querySelector(".")
+    }
 })
