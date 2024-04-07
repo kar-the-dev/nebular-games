@@ -86,10 +86,6 @@ body {
   text-align: right;
 }
 
-p, h1, h2, h3 {
-  word-wrap: break-word;
-}
-
 .content {
   position: absolute;
   left: 0;
