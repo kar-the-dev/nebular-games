@@ -70,12 +70,11 @@ body {
   border: solid #666666 1px;
   font-family: "Trebuchet MS", sans-serif;
 
-  transition: 0.5s;
+  transition: 0.15s;
   animation: 3s infinite ease-in-out bounce;
 }
 
 .down-arrow:hover {
-  border: solid #666666 2px;
   width: 11vh;
   height: 11vh;
 }
