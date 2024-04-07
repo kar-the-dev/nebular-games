@@ -1,5 +1,5 @@
 var canvas = document.createElement("canvas");
-var width = canvas.width = window.innerWidth * 0.75;
+var width = canvas.width = screen.innerWidth * 0.75;
 var height = canvas.height = window.innerHeight * 0.75;
 document.body.appendChild(canvas);
 var gl = canvas.getContext('webgl');
