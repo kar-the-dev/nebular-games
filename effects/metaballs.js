@@ -1,3 +1,11 @@
+let dw;
+let dh;
+
+function setup() {
+  dw = displayWidth;
+  dh = displayHeight;
+}
+
 var canvas = document.createElement("canvas");
 var width = canvas.width = screen.width * 0.75;
 var height = canvas.height = screen.height * 0.75;
