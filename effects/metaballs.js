@@ -111,6 +111,8 @@ gl.vertexAttribPointer(positionHandle,
 
 var metaballsHandle = getUniformLocation(program, 'metaballs');
 
+let prevFull = false;
+
 loop();
 function loop() {
   for (var i = 0; i < numMetaballs; i++) {
