@@ -1,5 +1,5 @@
 document.onreadystatechange(() => {
     if(document.readyState !== "complete") {
-        document.querySelector(".")
+        document.querySelector(".spinner").style
     }
 })
