@@ -48,6 +48,8 @@ body {
   text-align: center;
   text-decoration: none;
   color: white;
+  display: flex;
+  align-content: flex-
 }
 
 .content {
