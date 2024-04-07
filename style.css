@@ -35,6 +35,10 @@ body {
   z-index: 50;
 }
 
+.down {
+  
+}
+
 .content {
   position: absolute;
   left: 0;
