@@ -68,6 +68,9 @@ body {
 
   transition: 0.15s;
   animation: 3s infinite ease-in-out bounce;
+
+  width: 2px;
+  height: 2px;
 }
 
 .down-arrow-container:hover {
@@ -81,8 +84,7 @@ body {
   text-decoration: none;
   color: white;
   pointer-events: none;
-  width: 2px;
-  height: 2px;
+  
 }
 
 .right {
