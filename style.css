@@ -26,13 +26,13 @@ body {
 }
 
 .transition {
-  
-}
-
-.content {
   position: absolute;
   left: 0;
   top: 80vh;
+  background-image: linear-gradient(transparent, black, black);
+}
+
+.content {
   background-color: black;
   height: 200vh;
   width: 100vw;
