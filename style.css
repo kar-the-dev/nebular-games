@@ -43,11 +43,11 @@ body {
     font-size: 5vw
   }
 
-  50% {
+  10% {
     font-size: 6vw;
   }
 
-  100% {
+  20% {
     font-size: 5vw;
   }
 }
