@@ -53,24 +53,6 @@ body {
   }
 }
 
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.spinner {
-  text-align: center;
-  width: 100vw;
-  height: 100vh;
-
-  font-size: 5vmax;
-
-  color: black;
-
-  animation: 1s infinite spin;
-}
-
 .down-arrow {
   position: relative;
   background-color: rgba(13, 13, 13, 0.4);
