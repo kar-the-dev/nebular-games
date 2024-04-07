@@ -99,6 +99,7 @@ body {
 
 p, h1, h2, h3 {
   word-wrap: break-word;
+  white-space: initial;
 }
 
 canvas {
