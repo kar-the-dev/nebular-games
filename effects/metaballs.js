@@ -12,9 +12,8 @@ function setup() {
   height = canvas.height = dh * 0.75;
   document.body.appendChild(canvas);
   gl = canvas.getContext('webgl');
+  gl.imageSmoothingEnabled = true;
 }
-var 
-gl.imageSmoothingEnabled = true;
 
 var mouse = {x: 0, y: 0};
 
