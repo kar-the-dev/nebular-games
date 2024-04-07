@@ -72,6 +72,10 @@ body {
   font-family: "Trebuchet MS", sans-serif;
 }
 
+.down-text {
+  animation: 3s infinite ease-in-out bounce;
+}
+
 .content {
   position: absolute;
   left: 0;
