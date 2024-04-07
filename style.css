@@ -40,7 +40,7 @@ body {
 .down {
   background-image: linear-gradient(to bottom right, #d70567, #04545b);
   border-radius: 100px;
-  font-size: 1vw;
+  font-size: 10vw;
 }
 
 .content {
