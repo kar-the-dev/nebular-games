@@ -62,8 +62,6 @@ body {
   width: 5vmax;
   height: 5vmax;
   text-align: center;
-  text-decoration: none;
-  color: white;
   display: flex;
   justify-content: center;
   border: solid #666666 1px;
