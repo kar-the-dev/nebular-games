@@ -64,7 +64,7 @@ body {
   width: 100vw;
   height: 100vh;
 
-  font-size: 20vmax;
+  font-size: 5vmax;
 
   animation: 1s infinite spin;
 }
