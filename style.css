@@ -83,7 +83,8 @@ body {
   border-radius: 100px;
   width: 5vmax;
   height: 5vmax;
-  
+  border: solid #666666 1px;
+
 }
 
 .right {
