@@ -86,6 +86,10 @@ body {
   text-align: right;
 }
 
+p {
+  overflow: wrap;
+}
+
 .content {
   position: absolute;
   left: 0;
