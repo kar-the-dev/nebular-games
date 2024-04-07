@@ -135,10 +135,10 @@ function loop() {
   gl.uniform3fv(metaballsHandle, dataToSendToGPU);
 
   let isFull = 
-  if (&& !prevFull) {
+  if (isFull && !prevFull) {
     recalc();
     prevFull = true;
-  } else if(prevFull) {
+  } else if(prevFull ) {
     recalc();
     prevFull = false;
   }
