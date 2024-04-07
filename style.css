@@ -28,7 +28,7 @@ body {
 .content {
   position: absolute;
   left: 0;
-  top: 100vh;
+  top: 80vh;
   background-color: black;
   height: 200vh;
   width: 100vw;
