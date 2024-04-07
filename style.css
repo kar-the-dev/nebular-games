@@ -86,7 +86,7 @@ body {
   text-align: right;
 }
 
-p {
+p, h1, h2, h3 {
   overflow: auto;
 }
 
