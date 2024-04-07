@@ -80,7 +80,7 @@ body {
 }
 
 .down-arrow:hover {
-  background-color: rgba(13, 13, 13, 0.4)
+  background-color: rgba(13, 13, 13, 0.75);
 }
 
 .right {
