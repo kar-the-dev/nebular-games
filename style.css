@@ -36,6 +36,17 @@ body {
   padding: 10px;
 }
 
+.transition {
+  position: absolute;
+  left: 0;
+  top: 80vh;
+  background-image: linear-gradient(transparent, #080808);
+  height: 20vh;
+  width: 100vw;
+  z-index: 50;
+  padding: 10px;
+}
+
 canvas {
   width: 100%;
   z-index: 0;
