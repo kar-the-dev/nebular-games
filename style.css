@@ -47,7 +47,7 @@ body {
     font-size: 6vw;
   }
 
-  20% {
+  20%, 100% {
     font-size: 5vw;
   }
 }
