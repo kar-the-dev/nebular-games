@@ -138,7 +138,7 @@ function loop() {
   if (isFull && !prevFull) {
     recalc();
     prevFull = true;
-  } else if(!isFull && prevFull ) {
+  } else if(!isFull && prevFull) {
     recalc();
     prevFull = false;
   }
