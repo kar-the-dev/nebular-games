@@ -112,7 +112,7 @@ h3 {
 }
 
 canvas {
-  width: 100vw;
+  width: var(--screen-w);
   height: 100vh;
   z-index: 0;
 }
