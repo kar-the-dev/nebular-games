@@ -97,6 +97,10 @@ body {
   padding: 10px;
 }
 
+p, h1, h2, h3 {
+  word-wrap: break-word;
+}
+
 canvas {
   width: 100vw;
   height: 100vh;
