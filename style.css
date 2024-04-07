@@ -82,6 +82,10 @@ body {
   top: -0.5vh;
 }
 
+.right {
+  text-align: right;
+}
+
 .content {
   position: absolute;
   left: 0;
