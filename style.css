@@ -81,6 +81,8 @@ body {
   text-decoration: none;
   color: white;
   pointer-events: none;
+  width: 2px;
+  height: 2px;
 }
 
 .right {
