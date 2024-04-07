@@ -39,7 +39,9 @@ body {
 }
 
 @keyframes bounce {
-  0
+  0% {
+    
+  }
 }
 
 .down {
