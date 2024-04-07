@@ -1,3 +1,3 @@
 document.onreadystatechange(() => {
-    if(document.readyState !== "")
+    if(document.readyState !== "complete")
 })
