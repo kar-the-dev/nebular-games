@@ -1,1 +1,1 @@
-VANTA.WAVES('.container');
+VANTA.WAVES('body');
