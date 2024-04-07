@@ -132,9 +132,6 @@ function loop() {
   //Draw
   gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
 
-  width = canvas.width = window.innerWidth * 0.75;
-  height = canvas.height = window.innerHeight * 0.75;
-
   requestAnimationFrame(loop);
 }
 
