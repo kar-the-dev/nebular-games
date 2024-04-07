@@ -63,7 +63,7 @@ body {
   justify-content: center;
   font-family: "Trebuchet MS", sans-serif;
 
-  transition: 0.05s;
+  transition: 0.15s;
   animation: 3s infinite ease-in-out bounce;
 
   text-decoration: none;
