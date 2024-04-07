@@ -1,4 +1,4 @@
-VANTA.RINGS({
+VANTA.NET({
     el: ".container",
     mouseControls: true,
     touchControls: true,
