@@ -80,6 +80,7 @@ body {
 }
 
 .down-arrow-container:hover {
+  cursor: pointer;
 }
 
 .down-arrow-text {
