@@ -79,6 +79,9 @@ body {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
+.down-arrow-container:hover {
+}
+
 .down-arrow-text {
   position: relative;
   top: -0.5vh;
