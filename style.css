@@ -40,11 +40,11 @@ body {
 
 @keyframes bounce {
   0% {
-    font-size: 5vw
+    top: 0;
   }
 
   10% {
-    font-size: 6vw;
+    top: .1vh;
   }
 
   20%, 100% {
