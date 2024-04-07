@@ -1,8 +1,5 @@
-var root = document.documentElement;
-
 function loop() {
-    $(':root').css("--windowHeight", $( window ).height() );
-
+  $(':root').css("--screen-w", $( window ).height() );
   requestAnimationFrame(loop);
 }
 
