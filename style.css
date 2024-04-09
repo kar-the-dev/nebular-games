@@ -104,6 +104,7 @@ body {
   width: 30vw;
   height: 30vw;
   margin-top: -30vh;
+  float: right;
 }
 
 .who p {
