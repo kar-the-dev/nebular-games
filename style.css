@@ -101,7 +101,7 @@ body {
   background-color: #141414;
   padding: 2.5vmax;
   text-align: center;
-  border
+  border-radius: 3px;
 }
 
 .card p {
