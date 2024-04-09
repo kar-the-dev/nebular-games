@@ -108,12 +108,6 @@ body {
   width: 40vw;
 }
 
-::-webkit-scrollbar {
-  background-color: transparent;
-  backdrop-filter: blur(50px);
-  width: 2px;
-}
-
 .content {
   position: absolute;
   left: 0;
