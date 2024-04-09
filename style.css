@@ -107,7 +107,7 @@ body {
 .who img {
   width: 30vmax;
   height: 30vmax;
-  margin-top: 10vh;
+  margin-top: -30vh;
 }
 
 .who p {
