@@ -111,6 +111,7 @@ body {
 ::-webkit-scrollbar {
   background-color: transparent;
   backdrop-filter: blur(50px);
+  width: 2px;
 }
 
 .content {
