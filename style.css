@@ -104,6 +104,10 @@ body {
   border-radius: 3px;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
 .card p {
   width: 40vw;
 }
