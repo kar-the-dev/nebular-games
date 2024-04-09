@@ -107,7 +107,7 @@ body {
 ::-webkit-scrollbar {
   width: 3px;
   background-color: transparent;
-  border: #0d0d0d;
+  border: solid 2px #0d0d0d;
 }
 
 .card p {
