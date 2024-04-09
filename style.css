@@ -99,14 +99,9 @@ body {
   height: 40vh;
   margin: 5vmax;
   background-color: #141414;
-  padding: 2vmax;
+  padding: 2.5vmax;
   text-align: center;
   border-radius: 3px;
-}
-
-::-webkit-scrollbar {
-  /* width: 6px; */
-  background-color: transparent;
 }
 
 .card p {
