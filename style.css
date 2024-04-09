@@ -38,6 +38,10 @@ body {
   justify-content: center;
 }
 
+.right {
+  
+}
+
 @keyframes bounce {
   0% {
     top: 0;
