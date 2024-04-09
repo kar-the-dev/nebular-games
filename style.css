@@ -112,6 +112,7 @@ body {
 .who-logo {
   display: flex;
   align-content: center;
+  float: right;
 }
 
 .who p {
