@@ -111,6 +111,7 @@ body {
 
 .who-logo {
   display: flex;
+  justify-content: center;
 }
 
 .who p {
