@@ -104,6 +104,10 @@ body {
   height: 30vh;
 }
 
+.who p {
+  width: 40vw;
+}
+
 .content {
   position: absolute;
   left: 0;
