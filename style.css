@@ -39,7 +39,7 @@ body {
 }
 
 .right {
-  
+  align: right;
 }
 
 @keyframes bounce {
