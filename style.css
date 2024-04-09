@@ -110,7 +110,7 @@ body {
 }
 
 .who-logo {
-  
+  display: flex;
 }
 
 .who p {
