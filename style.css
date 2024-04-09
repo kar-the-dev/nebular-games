@@ -102,9 +102,6 @@ body {
   margin-left: 10vw;
   width: 90vw;
   height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
 }
 
 .who p {
