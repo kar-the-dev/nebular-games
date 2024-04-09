@@ -100,14 +100,6 @@ body {
   height: 30vh;
 }
 
-.who img {
-  width: 30vw;
-  height: 30vw;
-  margin-top: -30vh;
-  float: right;
-  margin-right: 10vw;
-}
-
 .who p {
   width: 40vw;
 }
