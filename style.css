@@ -94,20 +94,6 @@ body {
   margin-right: 1vw;
 }
 
-.card {
-  width: 40vw;
-  height: 40vh;
-  margin: 5vmax;
-  background-color: #141414;
-  padding: 2.5vmax;
-  text-align: center;
-  border-radius: 3px;
-}
-
-.card p {
-  width: 40vw;
-}
-
 .content {
   position: absolute;
   left: 0;
