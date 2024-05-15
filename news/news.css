@@ -4,5 +4,6 @@ html, body {
 }
 
 iframe {
-    width: 1
+    width: 100vw;
+    height: 100vh;
 }
