@@ -23,7 +23,7 @@ p {
   position: fixed;
   left: 50%;
   top: 70%;
-  font-size: 3vmax;
+  font-size: 2.5vmax;
   text-align: center;
   transform: translate(-50%, -50%);
 }
