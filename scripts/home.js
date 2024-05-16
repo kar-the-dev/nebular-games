@@ -3,7 +3,7 @@
 // licensed under GNU Public License v3.0
 
 const canvas = document.getElementById("hero-canvas");
-canvas.width = window.innerWidth;
+canvas.width = document.clientWidth;
 canvas.height = window.innerHeight;
 const ctx = canvas.getContext("2d");
 const particles = [];
