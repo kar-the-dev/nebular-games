@@ -8,3 +8,8 @@ body {
   background-color: black;
   scroll-behavior: smooth;
 }
+
+canvas {
+  position: fixed;
+  overflow-y: hidden;
+}
