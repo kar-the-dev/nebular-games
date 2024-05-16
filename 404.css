@@ -9,7 +9,7 @@ body {
 
 .error {
   position: fixed;
-  top: 50%;
+  top: 40%;
   left: 50%;
   color: rgb(246, 49, 49);
   font-size: 30vmax;
