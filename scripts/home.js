@@ -67,7 +67,7 @@ class Particle {
     this.vy = Math.sin(r) / range(2, 4);
 
     this.size = range(2, 4);
-    this.gsize = this.size; // g
+    this.gsize = this.size; // goal size
     this.asize = this.size; // actual size
 
     this.color = Particle.colors[rint(0, Particle.colors.length - 1)];
