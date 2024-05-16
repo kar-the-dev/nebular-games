@@ -95,6 +95,7 @@ class Particle {
     // vr is angular velocity
     this.rotation += this.vr;
 
+    
     const alpha = (this.asize - this.size) / this.size / hoverDiv;
     if (alpha >= 0.01) {
       ctx.beginPath();
