@@ -8,7 +8,7 @@ body {
 .error {
   color: rgb(246, 49, 49);
   font-size: 30vmax;
-  position: absolute;
+  position: fixed;
   top: 0px;
 }
 
