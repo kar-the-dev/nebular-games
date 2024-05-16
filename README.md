@@ -4,4 +4,3 @@
 open source moment (real)
 
 licensed under GPLv3 (see LICENSE)
-
