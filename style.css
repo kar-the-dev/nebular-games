@@ -9,7 +9,16 @@ body {
   scroll-behavior: smooth;
 }
 
-canvas {
+#hero-canvas {
   position: fixed;
   overflow-y: hidden;
+  z-index: -1;
+  
+}
+
+h1,
+h2,
+h3,
+p {
+  filter: drop-shadow(0 0 0.5em #fffb);
 }
