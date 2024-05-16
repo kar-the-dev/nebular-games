@@ -1,51 +1,68 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Helvetica", sans-serif;
   color: white;
   overflow-x: hidden;
-  background-color: black;
   scroll-behavior: smooth;
+  background: transparent;
+  font-size: calc(16px + 2 * ((100vw - 320px) / 680));
+}
+
+h1,
+h2 {
+  filter: drop-shadow(0 0 10px #fff);
+}
+
+.hero-box,
+.banner-box {
+  width: min(100%, 1140px);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Lexend Deca", "Helvetica", sans-serif;
+  font-weight: 900;
+  font-size: 3.2em;
+}
+
+:is(.hero-box, .banner-box) h1 {
+  color: #eee;
+  flex: 1 1 400px;
 }
 
 header {
+  min-height: 100vh;
+  padding: 3em 1em;
+  position: relative;
 }
 
-* {
-  margin: 0 auto;
+header,
+.section-banner {
+  background: transparent;
+  display: flex;
+  place-items: center;
+  user-select: none;
 }
 
 #hero-canvas {
-  position: fixed;
-  overflow-y: hidden;
-  z-index: -1;
-
-  top: 0 !important;
-  left: 0 !important;
-  width: 100%;
-  height: 100vh;
-  padding: 0;
-}
-
-.bg {
-  position: fixed;
-  overflow-y: hidden;
-  z-index: -2;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100%;
-  height: 100vh;
-  padding: 0;
-  background-image: url("./media/mountain.jpg");
+  background: url("../media/city.png"),
+    linear-gradient(225deg, #64016b80, #00000080);
   background-size: cover;
-  background-position: center top;
+  background-position: center;
   background-blend-mode: overlay;
-  filter: brightness(50%);
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
 }
 
-.section-box {
-  position: absolute;
-  filter: drop-shadow(0 0 0.5em #fffb);
-  margin: 0;
+:is(.hero-box, .banner-box) h1 {
+  color: #eee;
+  flex: 1 1 400px;
 }
