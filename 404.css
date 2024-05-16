@@ -37,5 +37,5 @@ p {
 }
 
 .return-home:hover {
-  text-decoration: 
+  text-decoration: underline;
 }
