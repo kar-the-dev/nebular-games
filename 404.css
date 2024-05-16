@@ -8,3 +8,9 @@ html, body {
   color: rgb(246, 49, 49);
   font-size: 30vmax;
 }
+
+p {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
