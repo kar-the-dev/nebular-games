@@ -23,5 +23,6 @@ p {
   position: fixed;
   left: 50%;
   top: 70%;
+  font-size: 
   transform: translate(-50%, -50%);
 }
