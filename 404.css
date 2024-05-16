@@ -4,13 +4,6 @@ html, body {
     color: white;
 }
 
-.center {
-  position: fixed;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  text-align: center;
-}
-
 .error {
   color: rgb(246, 49, 49);
   font-size: 30vmax;
