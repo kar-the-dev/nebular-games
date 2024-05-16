@@ -92,6 +92,7 @@ class Particle {
   }
 
   draw() {
+    // vr is angular velocity
     this.rotation += this.vr;
 
     const alpha = (this.asize - this.size) / this.size / hoverDiv;
