@@ -32,8 +32,6 @@ p {
   font-size: .5em;
   text-decoration: none;
   color: rgb(1, 55, 67);
-
-  transition: .25s;
 }
 
 .return-home:hover {
