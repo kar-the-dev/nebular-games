@@ -24,5 +24,6 @@ p {
   left: 50%;
   top: 70%;
   font-size: 10vmax;
+  text-align: center;
   transform: translate(-50%, -50%);
 }
