@@ -4,7 +4,7 @@
 
 const canvas = document.getElementById("hero-canvas");
 canvas.width = document.clientWidth;
-canvas.height = window.innerHeight;
+canvas.height = document.clientHeight;
 const ctx = canvas.getContext("2d");
 const particles = [];
 
