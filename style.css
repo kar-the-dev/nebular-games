@@ -37,7 +37,7 @@ header {
 
 #hero-canvas {
 	background: url("./media/mountain.jpg"),
-		linear-gradient(225deg, #5e026a93, #000000cc);
+		linear-gradient(225deg, #69027793, #000000cc);
 	background-size: cover;
 	background-position: center;
 	background-blend-mode: overlay;
