@@ -1,3 +1,31 @@
+const $scroller = document.querySelector(".scroller");
+const $games = document.querySelector(".section-games");
+function scroll() {
+  $games.scrollIntoView({ behavior: "smooth" });
+}
+if ($scroller) {
+  $scroller.addEventListener("click", scroll);
+  $scroller.addEventListener("keypress", (e) =>
+    e.key === "Enter" ? scroll() : 0
+  );
+}
+
+const $cards = document.getElementsByClassName("game-card");
+const scrollObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) entry.target.classList.remove("disappear");
+    });
+  },
+  {
+    threshold: 1,
+  }
+);
+for (const card of $cards) {
+  card.classList.add("disappear");
+  scrollObserver.observe(card);
+}
+
 const canvas = document.getElementById("hero-canvas");
 canvas.width = document.body.clientWidth;
 canvas.height = window.innerHeight;
