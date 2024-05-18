@@ -96,7 +96,7 @@ class Particle {
 
     this.color = Particle.colors[rint(0, Particle.colors.length - 1)];
 
-    this.num = rint(4, 7);
+    this.num = 3;
     // angular velocity
     this.vr = range(-0.05, 0.05);
     this.rotation = range(0, Math.PI * 2);
