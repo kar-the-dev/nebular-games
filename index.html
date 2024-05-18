@@ -1,30 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    /> -->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    ></script>
+		<meta name="author" content="cubedhuang">
+		<meta name="description" content="fun web experiments">
+		<meta name="keywords" content="cubedhuang, web experiments, experiments">
+		<meta name="theme-color" content="#d63031">
 
-    <script defer src="scripts/home.js"></script>
+		<meta property="og:title" content="cubedhuang">
+		<meta property="description" content="web experiments">
+		<meta property="og:description" content="web experiments">
+		<meta property="og:url" content="https://cubedhuang.com/">
+		<meta property="og:image" content="https://cubedhuang.com/images/logo.png">
 
-    <title>Nebular Games - Home</title>
-  </head>
-  <body>
-    <header>
-      <canvas id="hero-canvas"></canvas>
-      <div class="hero-box"><h1>nebular.games</h1></div>
-    </header>
+		<link rel="shortcut icon" href="/favicon.ico">
 
-    <section class="section-items">
-    </section>
-  </body>
+		<link rel="preload" href="/media/mountain.jpg" as="image">
+		<link rel="preload" href="/modern-normalize.min.css" as="style">
+
+		<link rel="stylesheet" href="/generic.css">
+		<link rel="stylesheet" href="/style.css">
+		<link rel="canonical" href="https://cubedhuang.com/">
+		<link rel="author" href="https://cubedhuang.com/">
+		<link rel="publisher" href="https://cubedhuang.com/">
+
+		<title>cubedhuang: web experiments</title>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107754281-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+
+			gtag('config', 'UA-107754281-2');
+		</script>
+		<!-- Cloudflare Web Analytics -->
+		<script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+			data-cf-beacon='{"token": "52dcb98c1a10492682592c6cfe35319d"}'></script>
+		<!-- End Cloudflare Web Analytics -->
+
+		<script data-ad-client="ca-pub-6652518816521459" async
+			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+		<script defer src="/scripts/home.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<canvas id="hero-canvas"></canvas>
+
+			<div class="hero-box">
+				<h1>nebular.games</h1>
+				<!-- <img src="/images/logo-wireframe.svg" alt="cubedhuang Logo" class="logo" width="200"
+					height="200"> -->
+			</div>
+
+			<div class="scroller" tabindex="0">
+				<div class="arrow">
+					<span></span>
+				</div>
+			</div>
+		</header>
+
+		<section class="section-games">
+			<div class="row">
+				<h2>projects</h2>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<a href="#" class="game-card">
+						<div class="text">
+							<span class="title">lorem</span>
+							<span class="description">lorem ipsum dolor</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+				</div>
+				<div class="col">
+					<a href="#" target="_blank" rel="noopener"
+						class="game-card">
+						<div class="text">
+              <span class="title">lorem</span>
+							<span class="description">lorem ipsum dolor</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-banner">
+			<div class="banner-box">
+				<h1>More <br> Experiments</h1>
+				<a href="./extras/" class="go">visit</a>
+			</div>
+		</section>
+
+		<section class="section-games">
+			<div class="row">
+				<h2>fun</h2>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<h3>interactive</h3>
+					<a href="/games/side-scroller/" class="game-card">
+						<div class="text">
+							<span class="title">Side Scroller</span>
+							<span class="description">a game about jumping over red things</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+					<a href="/games/dodger/" class="game-card">
+						<div class="text">
+							<span class="title">Dodger</span>
+							<span class="description">a game about dodging white squares</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+					<a href="/games/pong/" class="game-card">
+						<div class="text">
+							<span class="title">Pong</span>
+							<span class="description">a game about hitting a ball</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+					<a href="/games/infinite-buttons/" class="game-card">
+						<div class="text">
+							<span class="title">Infinite Buttons</span>
+							<span class="description">a game about clicking buttons</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+
+					<h3>games</h3>
+					<a href="/games/platformer/" class="game-card">
+						<div class="text">
+							<span class="title">Platformer</span>
+							<span class="description">platformer game</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+					<a href="/games/platformaker/" class="game-card">
+						<div class="text">
+							<span class="title">Platformaker</span>
+							<span class="description">create a level in platformer</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+					<a href="/games/monster/" class="game-card">
+						<div class="text">
+							<span class="title">Monster Killer</span>
+							<span class="description">a game about killing the monster</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col">
+					<h3>incremental</h3>
+					<a href="/games/infinistruct/" class="game-card">
+						<div class="text">
+							<span class="title">Infinistruct</span>
+							<span class="description">this game is still glitchy but not a
+								priority</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+					<a href="/games/thing/" class="game-card">
+						<div class="text">
+							<span class="title">Thing</span>
+							<span class="description">this game is still a thing</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+					<a href="https://string.cubedhuang.com" class="game-card">
+						<div class="text">
+							<span class="title">Creation</span>
+							<span class="description">unfinished universe incremental</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+
+					<h3>Experiments</h3>
+					<a href="/experiments/evolvingtext/" class="game-card">
+						<div class="text">
+							<span class="title">genetic text</span>
+							<span class="description">random text mutations reach your goal</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+					<a href="/experiments/maze/" class="game-card">
+						<div class="text">
+							<span class="title">maze generator</span>
+							<span class="description">recursive backtracking maze</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+					<a href="/experiments/sticky/" class="game-card">
+						<div class="text">
+							<span class="title">sticky headers</span>
+							<span class="description">the random sentences took longer to
+								make</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+					<a href="/experiments/passwords/" class="game-card">
+						<div class="text">
+							<span class="title">Password Generator</span>
+							<span class="description">a password generator</span>
+						</div>
+						<div class="arrow">
+							<span></span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-about">
+			<div class="row">
+				<h2>Other stuff</h2>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<h3 class="center">about my website</h3>
+					<p>
+						Over the course of the past few years,
+						I've made a lot of experiments and games.
+						A lot of the stuff lower on this main page was made
+						several years ago, while more recent stuff just ends
+						up in the more experiments section.
+					</p>
+				</div>
+
+				<!-- <div class="col">
+					<h3 class="center">Comments</h3>
+					<p>
+						Asking questions, reporting bugs,
+						and other stuff like that could be put here.
+						If you want to.
+					</p>
+				</div> -->
+			</div>
+		</section>
+
+		<footer>
+			<div class="row">
+				<p>The source code for this website is licensed under the GPLv3.</p>
+			</div>
+		</footer>
+	</body>
 </html>
