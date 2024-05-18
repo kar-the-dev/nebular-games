@@ -57,7 +57,7 @@ header,
 }
 
 #hero-canvas {
-  background: url("../media/city.png"),
+  background: url("../media/mountain.png"),
     linear-gradient(225deg, #64016b80, #00000080);
   background-size: cover;
   background-position: center;
