@@ -12,7 +12,7 @@ header,
 
 .hero-box,
 .banner-box {
-	width: min(100%, 1140px);
+	width: 90%;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -22,7 +22,7 @@ header,
 
 :is(.hero-box, .banner-box) h1 {
 	color: #eee;
-	flex: 1 1 400px;
+	flex: 1 1;
 }
 
 /* ------------------------------ */
