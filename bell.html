@@ -1,0 +1,182 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var periods = [
+    { start: "07:49:00", end: "07:59:00", name: "intermisson" },
+    { start: "08:00:00", end: "09:00:00", name: "Period 1" },
+    { start: "09:00:01", end: "09:03:59", name: "Passing Period" },
+    { start: "09:04:00", end: "10:04:00", name: "Period 2" },
+    { start: "10:04:01", end: "10:07:59", name: "Passing Period" },
+    { start: "10:08:00", end: "11:12:00", name: "Period 3" },
+    { start: "11:12:01", end: "11:15:59", name: "Passing Period" },
+    { start: "11:16:00", end: "11:38:00", name: "1st Lunch" },
+    { start: "11:38:01", end: "11:41:59", name: "Passing Period" },
+    { start: "11:42:00", end: "12:41:00", name: "Period 4" },
+    { start: "12:41:01", end: "12:44:59", name: "Passing Period" },
+    { start: "12:45:00", end: "13:41:00", name: "Period 5" },
+    { start: "13:41:01", end: "13:44:59", name: "Passing Period" },
+    { start: "13:45:00", end: "14:45:00", name: "Period 6" },
+    { start: "14:45:00", end: "15:30:00", name: "School has ended! WHOOHOO!!!" }
+  ];
+
+  function getCurrentPeriod() {
+    var currentTime = new Date();
+    var currentHour = currentTime.getHours();
+    var currentMinute = currentTime.getMinutes();
+    var currentSecond = currentTime.getSeconds();
+    var currentPeriod = "School is not in session at the moment";
+    var secondsRemaining = 0;
+
+    periods.forEach(function(period) {
+      var start = period.start.split(":");
+      var end = period.end.split(":");
+      var startHour = parseInt(start[0]);
+      var startMinute = parseInt(start[1]);
+      var startSecond = parseInt(start[2]);
+      var endHour = parseInt(end[0]);
+      var endMinute = parseInt(end[1]);
+      var endSecond = parseInt(end[2]);
+
+      if (
+        currentHour > startHour &&
+        currentHour < endHour ||
+        (currentHour === startHour &&
+          currentMinute >= startMinute) ||
+        (currentHour === endHour && currentMinute <= endMinute)
+      ) {
+        currentPeriod = period.name;
+        secondsRemaining = (endHour - currentHour) * 3600 + (endMinute - currentMinute) * 60 + (endSecond - currentSecond);
+      }
+    });
+
+    return { period: currentPeriod, secondsRemaining: secondsRemaining };
+  }
+
+  function updateCurrentPeriod() {
+    var currentData = getCurrentPeriod();
+    var h1 = document.getElementById("current-period");
+    var timer = document.getElementById("remaining-time");
+
+    if (h1) {
+      h1.textContent = currentData.period;
+    }
+    if (timer) {
+      timer.textContent = currentData.secondsRemaining > 0 ? "Time remaining: " + formatTime(currentData.secondsRemaining) : "";
+    }
+  }
+
+    function hidetab() {
+        var win = window.open();
+        var url = "https://zelity.github.io/nuxzul-games/games.html";
+        var iframe = win.document.createElement('iframe');
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.border = "none";
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+      }
+  
+  function formatTime(seconds) {
+    var hours = Math.floor(seconds / 3600);
+    var minutes = Math.floor((seconds % 3600) / 60);
+    var secs = seconds % 60;
+    return hours + " hours " + minutes + " minutes " + secs + " seconds";
+  }
+
+  updateCurrentPeriod();
+  setInterval(updateCurrentPeriod, 1000);
+});
+
+
+
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var periods = [
+    { start: "07:49:00", end: "07:59:00", name: "intermisson" },
+    { start: "08:00:00", end: "09:00:00", name: "Period 1" },
+    { start: "09:00:01", end: "09:03:59", name: "Passing Period" },
+    { start: "09:04:00", end: "10:04:00", name: "Period 2" },
+    { start: "10:04:01", end: "10:07:59", name: "Passing Period" },
+    { start: "10:08:00", end: "11:12:00", name: "Period 3" },
+    { start: "11:12:01", end: "11:15:59", name: "Passing Period" },
+    { start: "11:16:00", end: "11:38:00", name: "2nd Lunch" },
+    { start: "11:38:01", end: "11:41:59", name: "Passing Period" },
+    { start: "11:42:00", end: "12:41:00", name: "Period 4" },
+    { start: "12:41:01", end: "12:44:59", name: "Passing Period" },
+    { start: "12:45:00", end: "13:41:00", name: "Period 5" },
+    { start: "13:41:01", end: "13:44:59", name: "Passing Period" },
+    { start: "13:45:00", end: "14:45:00", name: "Period 6" },
+    { start: "14:45:00", end: "15:30:00", name: "School has ended! WHOOHOO!!!" }
+  ];
+
+  function getCurrentPeriod() {
+    var currentTime = new Date();
+    var currentHour = currentTime.getHours();
+    var currentMinute = currentTime.getMinutes();
+    var currentSecond = currentTime.getSeconds();
+    var currentPeriod = "School is not in session at the moment";
+    var secondsRemaining = 0;
+
+    periods.forEach(function(period) {
+      var start = period.start.split(":");
+      var end = period.end.split(":");
+      var startHour = parseInt(start[0]);
+      var startMinute = parseInt(start[1]);
+      var startSecond = parseInt(start[2]);
+      var endHour = parseInt(end[0]);
+      var endMinute = parseInt(end[1]);
+      var endSecond = parseInt(end[2]);
+
+      if (
+        currentHour > startHour &&
+        currentHour < endHour ||
+        (currentHour === startHour &&
+          currentMinute >= startMinute) ||
+        (currentHour === endHour && currentMinute <= endMinute)
+      ) {
+        currentPeriod = period.name;
+        secondsRemaining = (endHour - currentHour) * 3600 + (endMinute - currentMinute) * 60 + (endSecond - currentSecond);
+      }
+    });
+
+    return { period: currentPeriod, secondsRemaining: secondsRemaining };
+  }
+
+  function updateCurrentPeriod() {
+    var currentData = getCurrentPeriod();
+    var h1 = document.getElementById("current-period");
+    var timer = document.getElementById("remaining-time");
+
+    if (h1) {
+      h1.textContent = currentData.period;
+    }
+    if (timer) {
+      timer.textContent = currentData.secondsRemaining > 0 ? "Time remaining: " + formatTime(currentData.secondsRemaining) : "";
+    }
+  }
+
+    function hidetab() {
+        var win = window.open();
+        var url = "https://zelity.github.io/nuxzul-games/games.html";
+        var iframe = win.document.createElement('iframe');
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.border = "none";
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+      }
+  
+  function formatTime(seconds) {
+    var hours = Math.floor(seconds / 3600);
+    var minutes = Math.floor((seconds % 3600) / 60);
+    var secs = seconds % 60;
+    return hours + " hours " + minutes + " minutes " + secs + " seconds";
+  }
+
+  updateCurrentPeriod();
+  setInterval(updateCurrentPeriod, 1000);
+});
+
+
+
+</script>
