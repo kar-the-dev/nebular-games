@@ -8,14 +8,20 @@
         body {
             margin: 0;
             font-family: 'Montserrat', sans-serif;
-            background: url('https://media.wbur.org/wp/2022/07/main_image_star-forming_region_carina_nircam_final-5mb.jpeg') no-repeat center center fixed;
+            background: url('https://source.unsplash.com/1920x1080/?space') no-repeat center center fixed;
             background-size: cover;
             color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
         .container {
             text-align: center;
             padding: 50px 20px;
+            flex: 1;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         h1 {
@@ -55,12 +61,12 @@
         }
 
         footer {
-            margin-top: 50px;
+            text-align: center;
+            padding: 20px 0;
             font-size: 0.9rem;
             color: white;
             text-shadow: 1px 1px 3px black;
         }
-
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -68,16 +74,14 @@
     <div class="container">
         <h1>Kar</h1>
         <p>hi! I'm Kar I am learning Python and CSS! However, I know discord.js, js, HTML, Luaa.</p>
-        
         <div class="button-group">
             <a href="https://github.com/kar-the-dev" class="button">GitHub</a>
             <a href="https://x.com/Kar___7" class="button">Twitter</a>
-            <a href="https://guns.lol/kar7" class="button">Guns.lol/a>
+            <a href="mailto:kar@nebular.games" class="button">Contact Me</a>
         </div>
     </div>
-
     <footer>
-        Kar - Nebular Games Co-Founder
+        Kar - Co-founder of Nebular Games
     </footer>
 </body>
 </html>
