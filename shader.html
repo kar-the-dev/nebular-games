@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kars shader maker</title>
-    <link rel="stylesheet" href="/cdn/shader.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <h1>kars shader maker</h1>
-    
+
+    <p class="link"><a href="https://yourwebsite.com" target="_blank">Visit our website</a></p>
+
     <div class="gradient-container" id="gradientBox"></div>
 
     <div class="controls">
-        <label for="color1">Gradient 1:</label>
-        <input type="color" id="color1" value="#ff758c">
+        <div class="color-input">
+            <label for="color1">Color 1:</label>
+            <input type="color" id="color1" value="#ff758c">
+        </div>
 
-        <label for="color2">Gradient 2:</label>
-        <input type="color" id="color2" value="#ff7eb3">
+        <div class="color-input">
+            <label for="color2">Color 2:</label>
+            <input type="color" id="color2" value="#ff7eb3">
+        </div>
 
         <button onclick="updateGradient()">Generate Gradient</button>
     </div>
@@ -28,7 +34,7 @@
         Made with ❤️ by Kar
     </div>
 
-    <script src="/cdn/shader.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
